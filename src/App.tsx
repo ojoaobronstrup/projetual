@@ -5,6 +5,7 @@ import portfolioResidenceImg from './assets/stitch/portfolio_residence.png'
 import portfolioWarehouseImg from './assets/stitch/portfolio_warehouse.png'
 import foundersImg from './assets/founders-placeholder.png'
 import logoImg from './assets/projetual-logo.png'
+import whatsappIcon from './assets/whatsapp.png'
 
 const projects = [
   {
@@ -414,9 +415,9 @@ export default function App() {
                 <div>
                   <h5 className="font-bold text-primary">Endereço</h5>
                   <p className="text-on-surface-variant">
-                    Av. das Engenharias, 1024, Sala 502
+                    Rua Maranhão, Arco-Íris
                     <br />
-                    Centro Tecnológico, Porto Alegre - RS
+                    Panambi - RS
                   </p>
                 </div>
               </div>
@@ -429,9 +430,9 @@ export default function App() {
                     Telefone &amp; WhatsApp
                   </h5>
                   <p className="text-on-surface-variant">
-                    (51) 3245-8800
+                    (55) 9 9907-6319
                     <br />
-                    (51) 99876-5432
+                    (55) 9 9953-2549
                   </p>
                 </div>
               </div>
@@ -442,7 +443,9 @@ export default function App() {
                 <div>
                   <h5 className="font-bold text-primary">E-mail</h5>
                   <p className="text-on-surface-variant">
-                    contato@projetualengenharia.com.br
+                     danieluiz.germano@icloud.com 
+                     <br />
+                     mirian.graff@icloud.com
                   </p>
                 </div>
               </div>
@@ -590,13 +593,11 @@ export default function App() {
       </footer>
 
       <a
-        className="fixed bottom-8 right-8 w-16 h-16 bg-green-500 text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform z-[60]"
-        href="https://wa.me/5551998765432"
+        className="fixed bottom-8 right-8 w-16 h-16 text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform z-[60]"
+        href="https://wa.me/5555999076319"
         aria-label="WhatsApp"
       >
-        <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24">
-          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.539 2.016 2.041-.54c.947.527 1.997.804 3.245.805 3.181 0 5.767-2.587 5.768-5.766.001-3.18-2.586-5.768-5.766-5.768zm0 10.455c-1.108 0-2.11-.318-2.956-.867l-.211-.137-1.22.323.328-1.226-.15-.243c-.562-.912-.858-1.921-.857-3.107 0-2.846 2.316-5.161 5.162-5.161 2.846 0 5.161 2.315 5.161 5.161-.001 2.846-2.317 5.161-5.161 5.161z"></path>
-        </svg>
+        <img src={whatsappIcon} alt="WhatsApp logo" />
       </a>
     </div>
   )
